@@ -1,0 +1,42 @@
+<div class="form-container col-sm-8 mx-auto">
+    <form>
+            <div class="form-group col-md-5 p-0 ">
+                    <label for="uname">edit image</label>
+                    <input type="file" name="pic" accept="image/*" ng-model="profile.img" onchange="angular.element(this).scope().fileNameChanged(this)">
+                </div>
+        <div class="form-group col-md-5 p-0 ">
+            <label for="uname">Username</label>
+            <input type="uname" ng-model="profile.uname" class="form-control" id="uname" placeholder="something unique like aja199">
+
+        </div>
+        <div class="row">
+            <div class="form-group col-md-5 ">
+                <label for="fname">First Name</label>
+                <input type="text" ng-model='profile.fname' class="form-control" id="fname" placeholder="eg: Michael">
+
+            </div>
+            <div class="form-group col-md-5">
+                <label for="lname">Last Name</label>
+                <input type="text" ng-model='profile.lname' class="form-control " id="lname" placeholder="eg: Jackson">
+
+            </div>
+        </div>
+        <div class="form-group col-md-8 p-0">
+            <label for="bio">BIO</label>
+            <textarea placeholder="few lines about you..." ng-model='profile.bio' class="form-control" id="bio" cols="40" rows="5"></textarea>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-5 ">
+                <label for="location">Location</label>
+                <input type="text" ng-model='profile.city' class="form-control" id="location" placeholder="Your City..">
+            </div>
+            <div class="form-group col-md-5">
+                <label for="location">country</label>
+                <input type="text" class="form-control" ng-model='profile.country' id="country" placeholder="Your Country..">
+            </div>
+        </div>
+
+        <a ng-click="saveDetails()" class="btn btn-default">SAVE<span class="glyphicon glyphicon-pencil"></span></a>
+    </form>
+</div>

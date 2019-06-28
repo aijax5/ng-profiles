@@ -1,0 +1,128 @@
+html {
+  background: none;
+}
+
+html body {
+  min-height: 100vh;
+  font-family: 'Ubuntu Mono', monospace;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3E475F), to(#1B223E));
+  background: linear-gradient(#3E475F, #1B223E);
+}
+
+header {
+  background-color: #3A3F57;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: "Major Mono Display", monospace !important;
+  color: #737c9c;
+}
+
+header h2 span {
+  color: #B8B9C9;
+}
+
+.card-container {
+  margin-top: 20px;
+}
+
+.card-container .row .col-sm-4 {
+  padding: 5px;
+}
+
+.card-container .row .card {
+  text-align: center;
+  background: none;
+  border: 2px solid #EA6D9A;
+}
+
+.card-container .row .card-body {
+  padding: 10px;
+}
+
+.card-container .row .card .uname {
+  margin-bottom: 5px;
+  text-transform: lowercase;
+  font-size: 16px;
+}
+
+.card-container .row .card-img-top {
+  width: 15%;
+  margin-bottom: 20px;
+}
+
+.card-container .row .card-title {
+  color: #F2C670;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.card-container .row .card-text {
+  height: 40px;
+  color: #7193D9;
+  margin-bottom: 10px;
+}
+
+/* Boostrap Buttons Styling */
+body .btn-default {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #79B772 !important;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid #79B772 !important;
+  border-radius: 40px;
+  padding: 10px 30px;
+  background: transparent;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+body .btn-default:hover {
+  color: #FFF !important;
+  background: #79B772;
+  cursor: pointer;
+  border: 2px solid #79B772;
+}
+
+.form-container {
+  margin-top: 40px;
+}
+
+.form-container label {
+  font-weight: 700;
+  font-size: 18px;
+  color: #79B772;
+}
+
+.form-container input, .form-container textarea {
+  color: #F2C670 !important;
+  background: none;
+  border: 2px solid #EA6D9A;
+}
+
+.form-container input::-webkit-input-placeholder, .form-container textarea::-webkit-input-placeholder {
+  color: #7193D9;
+}
+
+.form-container input:-ms-input-placeholder, .form-container textarea:-ms-input-placeholder {
+  color: #7193D9;
+}
+
+.form-container input::-ms-input-placeholder, .form-container textarea::-ms-input-placeholder {
+  color: #7193D9;
+}
+
+.form-container input::placeholder, .form-container textarea::placeholder {
+  color: #7193D9;
+}
+
+.form-container input:focus, .form-container textarea:focus {
+  background: none;
+}
+/*# sourceMappingURL=main.css.map */

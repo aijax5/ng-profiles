@@ -1,0 +1,2 @@
+client ID : 819a8ee2e112b5d
+client secret: 506185cab1395be8899988e88b29c8d52f949954

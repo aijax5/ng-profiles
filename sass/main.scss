@@ -1,0 +1,114 @@
+$col-dark:#2e2e54;
+$col-back-t:#3E475F;
+$col-back-b:#1B223E;
+$fam2:'Major Mono Display',
+monospace;
+
+html {
+    body {
+        min-height: 100vh;   
+        font-family: 'Ubuntu Mono', monospace;
+        background: linear-gradient( $col-back-t, $col-back-b);
+    }
+    background: none;
+}
+
+header {
+    background-color: #3A3F57;
+    padding: 10px 10px;
+    text-align: center;
+
+    h2 {
+        font-size: 28px;
+        text-transform: uppercase;
+        font-family: $fam2 !important;
+        color: rgb(115, 124, 156);
+
+        span {
+            color: #B8B9C9;
+        }
+    }
+}
+
+
+.card-container {
+    margin-top: 20px;
+    .row {
+        .col-sm-4 {
+            padding: 5px;
+        }   
+
+        .card {
+            text-align: center;
+            background: none;
+            border: 2px solid #EA6D9A;
+            &-body{
+                padding: 10px;
+            }
+            .uname{margin-bottom: 5px;text-transform: lowercase; font-size: 16px}
+            &-img-top{
+                width: 15%;
+                margin-bottom: 20px;    
+            }
+            // background-image: linear-gradient(rgb(98, 107, 131), #6E7790);
+            &-title {
+                color: #F2C670;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+            }
+
+            &-text {
+                height: 40px;
+                color: #7193D9;
+                margin-bottom: 10px;
+            }
+
+           
+        }
+    }
+}
+
+// body .btn {}
+
+/* Boostrap Buttons Styling */
+
+body .btn-default {
+    // font-family: Raleway-SemiBold;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #79B772 !important;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid #79B772 !important;
+    border-radius: 40px;
+    padding: 10px 30px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+body .btn-default:hover {
+    color: #FFF !important;
+    background: #79B772;
+    cursor: pointer;
+    border: 2px solid#79B772;
+}
+.form-container{
+    margin-top: 40px;
+    label{
+        font-weight: 700;
+        font-size: 18px;
+        color: #79B772;
+    }
+    input,textarea{
+        color: #F2C670 !important;
+        background: none;
+        border: 2px solid #EA6D9A;
+        &::placeholder{
+            color: #7193D9;
+        }
+        &:focus{
+            background:none;
+        }
+    }
+}
